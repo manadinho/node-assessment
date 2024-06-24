@@ -1,0 +1,140 @@
+body {
+  background-color: #fff;
+}
+
+.row {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: "Exo";
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.container {
+  background-color: white;
+  width: 320px;
+  padding: 20px;
+  margin: 30px auto;
+  height: 420px;
+  text-align: center;
+}
+
+#output {
+  font-family: "Exo";
+  font-size: 2rem;
+  height: 60px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+#call {
+  display: inline-block;
+  background-color: #66bb6a;
+  padding: 10px 32px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  border: none;
+}
+
+.botrow {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: "Exo";
+}
+
+.digit:active,
+.dig:active {
+  background-color: #e6e6e6;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+.dig {
+  float: left;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+
+#calling-section {
+  display: none;
+}
+.calling-icon {
+  background: #be1104;
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+#inprogress-section {
+  display: none;
+}
+
+.call-end-section {
+  display: flex;
+  justify-content: center;
+}
+#call-end {
+  display: inline-block;
+  background-color: #be1104;
+  padding: 10px 32px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  border: none;
+}
+
+.dialed-phone-number {
+  font-family: "Exo";
+}
+
+#call-timer {
+  font-family: "Exo";
+}
+
+p {
+  font-family: "Exo";
+}
+
+.outbound-call-text {
+  top: 663px;
+  left: 776px;
+  width: 370px;
+  height: 123px;
+  text-align: center;
+  font: normal normal 600 30px/40px Poppins;
+  letter-spacing: 0px;
+  color: #516f90;
+  opacity: 1;
+}
+
+.outbound-call-image {
+  top: 359px;
+  left: 814px;
+  width: 293px;
+  height: 283px;
+  background: transparent url("img/Group 63.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
